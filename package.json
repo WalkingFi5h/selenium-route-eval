@@ -1,0 +1,18 @@
+{
+  "name": "selenium-route-eval",
+  "version": "1.0.0",
+  "description": "Selenium automation for route evaluation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js > logs/log-$(date +'%Y-%m-%d__%H%M%S').csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WalkingFish",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "minimist": "^1.2.0",
+    "pouchdb": "^6.4.3",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
